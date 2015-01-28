@@ -20,6 +20,10 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         linearLayoutButton = (Button) findViewById(R.id.button);
+
+        // the OnClickListener is an example of an anonymous inner class
+        // declare an inner class within the body of a method without naming the class
+
         linearLayoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
